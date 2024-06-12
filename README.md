@@ -1,11 +1,9 @@
 
----
-
 # Online Examination System
 
 ## Overview
 
-The Online Examination System is a web-based application developed using PHP and XAMPP stack. It facilitates conducting examinations online, offering features for both administrators and participants.
+The Online Examination System is a web-based application developed using PHP and the XAMPP stack. It facilitates conducting examinations online, offering features for both administrators and participants.
 
 ## Features
 
@@ -28,16 +26,16 @@ The Online Examination System is a web-based application developed using PHP and
 
 1. **Clone Repository:** Clone this repository to your local machine.
    ```
-   git clone https://github.com/your-username/online-examination-system.git
+   git clone https://github.com/Ritulkr/Online-Quiz.git
    ```
 
 2. **Database Setup:** Import the provided SQL file (`database.sql`) to set up the necessary database schema.
    
-3. **Configuration:** Update the database connection details in `config.php` file with your MySQL credentials.
+3. **Configuration:** Update the database connection details in the `config.php` file with your MySQL credentials.
    
 4. **Start Server:** Start your XAMPP server and ensure Apache and MySQL services are running.
 
-5. **Access Application:** Open your web browser and navigate to `http://localhost/online-examination-system`.
+5. **Access Application:** Open your web browser and navigate to `http://localhost/online-quiz`.
 
 ## Usage
 
@@ -45,7 +43,6 @@ The Online Examination System is a web-based application developed using PHP and
 - **Create Exams:** Admins can create exams, add questions from the question bank, and set exam parameters.
 - **Participant Login:** Participants can log in using their credentials and take exams assigned to them.
 - **View Results:** Admins can view and manage exam results, generate reports, and export data if needed.
-
 
 ## License
 
